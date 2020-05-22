@@ -10,9 +10,13 @@ const T = new Twit({
 });
 
 // start stream and track tweets
-const stream = T.stream("statuses/filter", { track: "#JavaScript" });
+const stream = T.stream("user", { screen_name: "RyanSmith_26" });
 
-// event handler
+// event handler - listen for tweets 
 stream.on("tweet", (tweet) => {
-  // perform some action here
+  if(tweet) // if tweet is a retweet from Bill Pulte {screen_name: "pulte"}
+  {
+    // retweet and wish ryan good luck
+  } 
+  
 });
