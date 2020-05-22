@@ -1,0 +1,22 @@
+{
+  "name": "good-luck-ryan",
+  "version": "1.0.0",
+  "description": "Building a bot to troll a buddy on Twitter, like an adult.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpmckenna90/good-luck-ryan.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpmckenna90/good-luck-ryan/issues"
+  },
+  "homepage": "https://github.com/jpmckenna90/good-luck-ryan#readme",
+  "dependencies": {
+    "twit": "^2.2.11"
+  }
+}
